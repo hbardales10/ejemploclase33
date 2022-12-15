@@ -7,6 +7,6 @@ app.use(express.static('public'))
 app.listen(PORT, (err) => {
   if (!err)
     console.log(
-      `servidor escuchando en express ${PORT} - PID WORKER ${process.pid}`
+      `servidor escuchando en express el puerto ${PORT} - PID WORKER ${process.pid}`
     )
 })
